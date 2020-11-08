@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <title>India_tour</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-info">
+                <a class="navbar-brand" href="#">
+                    <span class="tour">
+                        <img src="../Images/logo.jpg" height="70px" width="100px" alt="" class="rounded-circle">
+                    </span>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link btn btn-info btn-lg dropdown-toggle mt-2" data-toggle="dropdown" href="#"
+                                role="button" aria-haspopup="true" aria-expanded="false">Location</a>
+                            <div class="dropdown-menu">
+                                <div class="header">
+                                    <h2>Select Place</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <h3><a class="btn btn-info" href="#">NorthIndia</a></h3>
+                                        <a class="dropdown-item" href="#">Jammu&Kashmir</a>
+                                        <a class="dropdown-item" href="#">Ladhakh</a>
+                                        <a class="dropdown-item" href="#">HimachalPradesh</a>
+                                        <a class="dropdown-item" href="#">Uttarakhand</a>
+                                        <a class="dropdown-item" href="#">Panjab</a>
+                                        <a class="dropdown-item" href="#">Haryana</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <h3><a class="btn btn-info" href="#">WestIndia</a></h3>
+                                        <a class="dropdown-item" href="#">Gujrat</a>
+                                        <a class="dropdown-item" href="#">Maharastra</a>
+                                        <a class="dropdown-item" href="#">Goa</a>
+                                        <a class="dropdown-item" href="#">MadhyaPradesh</a>
+                                        <a class="dropdown-item" href="#">Rajsthan</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <h3><a class="btn btn-info" href="#">EastIndia</a></h3>
+                                        <a class="dropdown-item" href="#">Bengal</a>
+                                        <a class="dropdown-item" href="#">Bihar</a>
+                                        <a class="dropdown-item" href="#">Odisha</a>
+                                        <a class="dropdown-item" href="#">Raipur</a>
+                                        <a class="dropdown-item" href="#">U.P</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <h3><a class="btn btn-info" href="#">SouthIndia</a></h3>
+                                        <a class="dropdown-item" href="#">Telangana</a>
+                                        <a class="dropdown-item" href="#">AndraPradesh</a>
+                                        <a class="dropdown-item" href="#">Tamilnadu</a>
+                                        <a class="dropdown-item" href="#">Kerala</a>
+                                        <a class="dropdown-item" href="#">karnataka</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <h3><a class="btn btn-info" href="#">NorthEastIndia</a></h3>
+                                        <a class="dropdown-item" href="#">Megalaya</a>
+                                        <a class="dropdown-item" href="#">Itanagar</a>
+                                        <a class="dropdown-item" href="#">Mizoram</a>
+                                        <a class="dropdown-item" href="#">Nagaland</a>
+                                        <a class="dropdown-item" href="#">Assam</a>
+                                        <a class="dropdown-item" href="#">Tripura</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <h3><a class="btn btn-info" href="#">Union Terrority</a></h3>
+                                        <a class="dropdown-item" href="#">Delhi</a>
+                                        <a class="dropdown-item" href="#">Aandaman</a>
+                                        <a class="dropdown-item" href="#">Daman Deu</a>
+                                        <a class="dropdown-item" href="#">Lakshya Deep</a>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="nav-link">
+                            <a href="./hotel.html" target="_blank" class="btn btn-info btn-lg">Hotel</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="./kfc.html" target="_blank" class="btn btn-info btn-lg">Resturent</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="./movieticket.html"  target="_blank" class="btn btn-info btn-lg">Movie</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#" class="btn btn-info btn-lg">Flight</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#" class="btn btn-info btn-lg">Train</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#" class="btn btn-info btn-lg">Bus</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#" class="btn btn-info btn-lg">Register</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#" class="btn btn-info btn-lg">Login</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline  my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+            </nav>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../Images/northeast.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Images/nandihill.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Images/vizag.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Images/northIU.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Images/nalanda.jpg">
+                    </div>
+                </div>
+                <div>
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+        </header>
+         <section>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="#">
+                            <div class="card text-white bg-light mb-2 mt-2">
+
+                                <h5 class="card-title">EastIndia</h5>
+
+                                <div class="card-body">
+
+                                    <img class="card-img-top" src="../Images/india_img1.jpg" height="150px" width="300px"
+                                        alt="India">
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">View More</a>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#">
+                            <div class="card text-white bg-light mb-2 mt-2">
+
+                                <h5 class="card-title">WestIndia</h5>
+
+                                <div class="card-body">
+
+                                    <img class="card-img-top" src="../Images/nandihill.jpg" height="150px" width="300px"
+                                        alt="India">
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">View More</a>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#">
+                            <div class="card text-white bg-light mb-2 mt-2">
+
+                                <h5 class="card-title">North</h5>
+
+                                <div class="card-body">
+
+                                    <img class="card-img-top" src="../Images/utarr.jpeg" height="150px" width="300px"
+                                        alt="India">
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">View More</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#">
+                            <div class="card text-white bg-light mb-2 mt-2">
+
+                                <h5 class="card-title">Kerala</h5>
+
+                                <div class="card-body">
+
+                                    <img class="card-img-top" src="../Images/southKe.jpg" height="150px" width="300px"
+                                        alt="India">
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">View More</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#">
+                            <div class="card text-white bg-light mb-2 mt-2">
+
+                                <h5 class="card-title">NorthEast</h5>
+
+                                <div class="card-body">
+
+                                    <img class="card-img-top" src="../Images/northeast.jpg" height="150px" width="300px"
+                                        alt="India">
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">View More</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <a href="#">
+                        <div class="col-sm-4">
+                            <div class="card text-white bg-light mb-2 mt-2">
+                                <h5 class="card-title">South</h5>
+                                <div class="card-body">
+                                    <img class="card-img-top" src="../Images/utarr.jpeg" height="150px" width="300px"
+                                        alt="India">
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+                <footer>
+                    <div>
+                        <marquee behavior="scroll" direction="right" scrollamount="20">
+                            <img src="../Images/india_img3.jpg" height="250px" width="650px" alt="India">
+                            <img src="../Images/india_img2.jpeg" height="250px" width="650px" alt="India">
+                        </marquee>
+                    </div>
+                    <div class="bg-info text-white text-center">
+                        &copy; Copyright 2020;
+                    </div>
+                </footer>
+        </div>
+    </body>
+
+</html>

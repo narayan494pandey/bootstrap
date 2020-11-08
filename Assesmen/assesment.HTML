@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Heartihealth</title>
+    <style>
+        
+        .section{
+            display:flex;
+            border: 2px blue;
+        }
+      .profile {
+        margin-left: 40px;
+        display: flex;
+        background-color:honeydew;
+        justify-content: space-between;
+        max-width: 700px;
+        border: 2px ivory;
+      }
+      span{
+          font-size: large;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+     .button{
+          display:flex;
+        justify-content: space-between;
+         font-weight: 900;
+         font-size: large;  
+      }
+      button{
+        border:2px solid blue;
+        padding:20px;
+      }
+      a{
+          text-decoration: none;
+          border:blueviolet 2px solid;
+          color:white;
+          padding:20px;
+          background-color:blueviolet;
+          margin:20px;
+      }
+      .sidebar{
+          display:flex;
+          flex-direction:column;
+          justify-content: space-between;
+          margin:30px;
+          width:250px;
+          height:500px;
+          background-color: gainsboro;
+          border:3px solid gainsboro
+      }
+    </style>
+  </head>
+  <body>
+      <header>
+
+      </header>
+    <section>
+        <div class="section">
+            <div class="sidebar">
+                    <a href="#dashbord">Dashboard</a>
+                    <a href="#dashbord">Doctor list</a>
+                    <a href="#dashbord">Dashboard</a>
+                    <a href="#dashbord">Connect to doc</a>
+            </div>
+            
+          <div class="subsection">
+                <h1 style="color:blueviolet">Doctor's Profile</h1>
+                <div class="profile">
+                    <div>  
+                        <img src="./image/doctor2.jpg" height="200px" width="200" />
+                    </div>
+                <div>
+                    <h1>Doctor. Jhon Doe</h3>
+                        <p>
+                          <span>Specializes in:</span>
+                          Heart Surgery, Cardiologist
+                        </p>
+                        <p>
+                          <span>Exprience:</span>
+                          22 Years
+                        </p>
+                        <p>
+                          <span>Education:</span>
+                          MS-Cardiology , MBBS, MRCS(UK)
+                        </p>
+                        <p>
+                          <span>Mobile:</span>
+                          +91-9876277261
+                        </p>
+                        <div class="button">
+                            <button style="background-color:blue;color:white">Chat Now</button>
+                            <button style="color:blue;background-color:white;border:1px solid blue">Book Appointment</button>
+                        </div>
+                    </div>
+              </div>
+              
+          </div>
+         
+        </div>
+    </section>
+   
+  </body>
+</html>
